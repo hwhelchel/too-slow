@@ -1,0 +1,12 @@
+<h1>KarmaVille's Most Famous</h1>
+<table class="table table-bordered table-striped">
+  <tr>
+    <th>Karma</th>
+    <th>Name</th>
+    <th>Username</th>
+    <th>Email</th>
+  </tr>
+  <% @users.each do |user| %>
+    <%= render 'user_row', user: user %>
+  <% end %>
+</table>

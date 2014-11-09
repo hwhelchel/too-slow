@@ -17,12 +17,14 @@ end
 group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
+  gem 'pry-byebug'
 end
 
 group :test do
   gem 'faker'
   gem 'factory_girl_rails'
   gem 'shoulda-matchers'
+  gem 'database_cleaner'
 end
 
 group :assets do
