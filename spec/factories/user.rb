@@ -9,7 +9,7 @@ FactoryGirl.define do
     email
 
     factory :user_with_karma do
-      ignore do
+      transient do
         points 1
         total  10
       end
