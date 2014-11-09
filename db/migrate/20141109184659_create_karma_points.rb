@@ -1,4 +1,4 @@
-class AddKarmaPoints < ActiveRecord::Migration
+class CreateKarmaPoints < ActiveRecord::Migration
   def change
     create_table :karma_points do |t|
       t.references :user, null: false
