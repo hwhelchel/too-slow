@@ -67,9 +67,9 @@ Congratulations you finished the exercise! Pat yourself on the back. Here's what
 - Implement a query cache using Memcache. When are good times to use query caches?
 - Implement another feature that would benefit from a query cache.
 
-#### Indexes - Ordered Indexes, Btree alternatives
+#### Indexes - Sorted Indexes, Partial Index, Btree alternatives
 - Indexes are super cool! I think I should add an index to every column! Is this a good idea?
-- Implement an ordered index.
+- Implement an sorted index.
 - What is a Btree index? Implement a feature that would benefit from another type of index.
 
 #### Active Record Query Interface
