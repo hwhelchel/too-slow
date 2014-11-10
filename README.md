@@ -64,7 +64,8 @@ Checkout master locally and implement the Bullet gem. After seeing how it works 
 Congratulations you finished the exercise! Pat yourself on the back. Here's what we'll do next.
 
 #### Caching - Query Caching using Memcache
-- Implement a query cache using Memcache. When are good times to use query caches? Implement another feature that would benefit from a query cache.
+- Implement a query cache using Memcache. When are good times to use query caches?
+- Implement another feature that would benefit from a query cache.
 
 #### Indexes - Ordered Indexes, Btree alternatives
 - Indexes are super cool! I think I should add an index to every column! Is this a good idea?
@@ -73,11 +74,11 @@ Congratulations you finished the exercise! Pat yourself on the back. Here's what
 
 #### Active Record Query Interface
 - What are the differences between #count, #size, #length?
-- Implement three features that would benefit from each method.
+- Implement a feature that would benefit from each method.
 
 #### Profiling - New Relic
-- Most shops use New Relic for production app monitoring. Create a test account and implement the newrelic_rpm gem on our application.
-- Learn something cool about New Relic to share with the group.
+- Many shops use New Relic for production app monitoring.
+- Implement the newrelic_rpm gem on our application.
 
 ##### Note
 
