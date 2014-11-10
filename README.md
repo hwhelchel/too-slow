@@ -7,6 +7,7 @@ If you are open to it I would encourage:
 
 - [Pairing](http://anh.cs.luc.edu/170/Kindergarten.html) with another developer. Please take a minute to read the link so you and your pair on the same page.
 - Adopting a [beginner's mindset](http://lifereimagined.aarp.org/stories/3251-Embracing-the-Beginner-s-Mindset). What does that mean? Maximize your learning while helping those around you. Everyone has different backgrounds and experiences. If you are struggling be vulnerable and ask questions. No question is a bad question. If you are not struggling help those around you. Take steps to get yourself to learn something whether that is steering the exercise to something novel for you or having someone else to give you a new challenge or topic to look into.
+- Read the [AIR code of conduct](http://air-topics.herokuapp.com/) for more guidelines.
 
 ####Workflow
 
