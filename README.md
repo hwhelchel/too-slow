@@ -1,14 +1,14 @@
 #Too-Slow
 
-Welcome to the Atlanta Intermediate Ruby Group workshop on SQL optimizations. After the event please give [feedback]() on the workshop! Most importantly be kind, dream big, and learn something new.
+Welcome to the Atlanta Intermediate Ruby Group workshop on SQL optimizations. After the event please give [feedback]() on the workshop! I hope you have fun!
 
-####A Meta Exercise:
-You know yourself and your learning style best but if you are open to or have done so before I would encourage:
+####A Meta Exercise
+If you are open to it I would encourage:
 
-- [Pairing](http://anh.cs.luc.edu/170/Kindergarten.html) with another developer. If you have only paired a little or have never paired before please take a minute to read the link so you and your pair on the same page.
-- Adopting a [beginner's mindset](http://lifereimagined.aarp.org/stories/3251-Embracing-the-Beginner-s-Mindset). What does that mean? Maximize your learning while helping those around you. Everyone has different backgrounds and experiences. If you are struggling be vulnerable and ask questions. No question is a bad question. If you are not struggling help those around you. Take steps to get yourself to learn something whether that is steering the exercise  to something novel for you or having someone else to give you a new challenge or topic to look into.
+- [Pairing](http://anh.cs.luc.edu/170/Kindergarten.html) with another developer. Please take a minute to read the link so you and your pair on the same page.
+- Adopting a [beginner's mindset](http://lifereimagined.aarp.org/stories/3251-Embracing-the-Beginner-s-Mindset). What does that mean? Maximize your learning while helping those around you. Everyone has different backgrounds and experiences. If you are struggling be vulnerable and ask questions. No question is a bad question. If you are not struggling help those around you. Take steps to get yourself to learn something whether that is steering the exercise to something novel for you or having someone else to give you a new challenge or topic to look into.
 
-####Work flow
+####Workflow
 
 - Make a branch with you and your pair's first names. Develop on that branch rather than master.
 - Use [Cloud9](https://c9.io/) for pairing in the cloud.
@@ -63,10 +63,10 @@ Checkout the master branch locally again and implement the Bullet gem. After see
 Congratulations you finished the exercise! Pat yourself on the back. Here's what we'll do next.
 
 #### Caching - Query Caching using Memcache
-Implement a query cache using Memcache. When are good times to use query caches? Implement another feature that would benefit from a query cache.
+- Implement a query cache using Memcache. When are good times to use query caches? Implement another feature that would benefit from a query cache.
 
 #### Indexes - Ordered Indexes, Btree alternatives
-- Indexes are super cool! I want to index every column! Is this a good idea?
+- Indexes are super cool! I think I should add an index to every column! Is this a good idea?
 - Implement an ordered index.
 - What is a Btree index? Implement a feature that would benefit from another type of index.
 
