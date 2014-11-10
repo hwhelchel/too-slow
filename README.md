@@ -57,7 +57,7 @@ Come up with strategies to fix the offending code(s) that you've identified.
 Execute your strategies one at a time and make sure you're on the right track.
 Make the app faster.
 ###Release 3
-Checkout the master branch locally again and implement the Bullet gem. After seeing how it can help with SQL optimization checkout your branch and implement Bullet to ensure you addressed all opportunities for optimization.
+Checkout master locally and implement the Bullet gem. After seeing how it works checkout your branch and implement Bullet to ensure you nabbed the optimizations.
 
 ##Want More?
 
