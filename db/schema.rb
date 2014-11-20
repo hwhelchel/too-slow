@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141109184659) do
+ActiveRecord::Schema.define(version: 20141120020727) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,13 +24,18 @@ ActiveRecord::Schema.define(version: 20141109184659) do
     t.datetime "updated_at"
   end
 
+  add_index "karma_points", ["user_id"], name: "index_karma_points_on_user_id", using: :btree
+
   create_table "users", force: true do |t|
-    t.string   "first_name",            null: false
-    t.string   "last_name",             null: false
-    t.string   "username",   limit: 32, null: false
-    t.string   "email",                 null: false
+    t.string   "first_name",                    null: false
+    t.string   "last_name",                     null: false
+    t.string   "username",           limit: 32, null: false
+    t.string   "email",                         null: false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "total_karma_points"
   end
+
+  add_index "users", ["total_karma_points"], name: "index_users_on_total_karma_points", using: :btree
 
 end
