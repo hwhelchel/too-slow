@@ -36,9 +36,9 @@ $ psql
 $ CREATE USER ubuntu WITH CREATEDB;
 $ \q
 $ exit
-$ createdb too\_slow\_development
-$ createdb too\_slow\_production
-$ createdb too\_slow\_test
+$ createdb too_slow_development
+$ createdb too_slow_production
+$ createdb too_slow_test
 $ bundle install
 $ rake db:setup
 ```
