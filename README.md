@@ -30,6 +30,15 @@ We have a pre-built Rails application with two models: `User` and `KarmaPoint`. 
 Get the application running as follows:
 
 ```text
+$ sudo service postgresql start
+$ sudo su -l postgres
+$ psql
+$ CREATE USER ubuntu WITH CREATEDB;
+$ \q
+$ exit
+$ createdb too\_slow\_development
+$ createdb too\_slow\_production
+$ createdb too\_slow\_test
 $ bundle install
 $ rake db:setup
 ```
